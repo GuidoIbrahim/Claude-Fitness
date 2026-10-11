@@ -30,7 +30,7 @@ export function CaloriesChart({ data, target }: { data: { date: string; calories
       <BarChart data={data} margin={{ top: 8, right: 8, left: -16, bottom: 0 }} barCategoryGap={2}>
         <CartesianGrid vertical={false} stroke="var(--border)" strokeDasharray="2 4" />
         <XAxis dataKey="date" tickFormatter={formatDateShort} interval="preserveStartEnd" minTickGap={28} {...axis} />
-        <YAxis domain={[0, yMax]} {...axis} width={48} />
+        <YAxis domain={[0, yMax]} {...axis} width={54} />
         <Tooltip
           {...tooltipStyle}
           labelFormatter={(l) => formatDateShort(String(l))}

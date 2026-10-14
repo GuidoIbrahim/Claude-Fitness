@@ -7,3 +7,4 @@ data/
 *.tsbuildinfo
 next-env.d.ts
 claude-fitness-app.zip
+claude-fitness-datos.json

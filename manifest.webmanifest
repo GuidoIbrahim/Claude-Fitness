@@ -1,0 +1,17 @@
+{
+  "name": "Claude Fitness",
+  "short_name": "Fitness",
+  "description": "Registro de comidas por foto con análisis de macros por IA, metas de déficit calórico, historial y peso.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0f151b",
+  "theme_color": "#0b8f88",
+  "lang": "es",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}
